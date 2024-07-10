@@ -105,8 +105,9 @@ body {
 #why-web-development .why-web-description {
     text-align: center;
     margin: 20px 42px 42px 42px;
-    color: #0D1321;
+    color: rgba(13, 19, 33);
     font-size: 15px;
+    line-height: 25px;
 }
 
 .will-do-coding {
@@ -138,7 +139,7 @@ body {
     font-weight: 400;
     color: rgba(13, 19, 33);
     opacity: 0.7;
-    line-height: 22px;
+    line-height: 25px;
 }
 
 .coding-info-btn button {
@@ -189,7 +190,7 @@ body {
     font-weight: 400;
     color: rgba(13, 19, 33);
     opacity: 0.7;
-    line-height: 22px;
+    line-height: 25px;
 }
 
 .help-people-btn button {
@@ -231,6 +232,7 @@ body {
     width: 745px;
     color: rgb(13, 19, 33);
     margin-bottom: 45px;
+    line-height: 25px;
 }
 
 .inspiration-video {
@@ -239,6 +241,256 @@ body {
     border-radius: 16px;
     padding: 30px;
 }
-.inspiration-video iframe{
+
+.inspiration-video iframe {
     border-radius: 16px;
+}
+
+/* Start Current Target Section Style CSS */
+#current-target {
+    width: 1005px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.current-target-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-target-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.current-target-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 745px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    line-height: 25px;
+}
+
+.current-target-blogs {
+    height: 325px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* Start HTML-Info Style CSS */
+
+.html-info {
+    width: 320px;
+    height: 320px;
+    padding: 30px;
+    margin-right: 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.html-info img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.html-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.html-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+
+.html-learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* Start CSS-Info Style CSS */
+
+.css-info {
+    width: 320px;
+    height: 320px;
+    padding: 30px;
+    margin-right: 24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.css-info img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.css-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.css-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+
+.css-learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* Start JavaScript-Info Style CSS */
+
+.javascript-info {
+    width: 320px;
+    height: 320px;
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05)
+}
+
+.javascript-info img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.javascript-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.javascript-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+
+.javascript-learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* Start Need Support Container Section Style CSS  */
+#need-support-container {
+    background-image: linear-gradient(380deg,
+            rgb(16, 16, 16) -19.5%,
+            rgba(16, 16, 16, 0) 100%), url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1003px;
+    height: 275px;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 15px;
+}
+
+.need-support-info {
+    width: 925px;
+    height: 163px;
+    padding: 60px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.need-support-title {
+    color: #FAFAFB;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.need-support-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFB;
+    margin-bottom: 24px;
+}
+
+.support-feild input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.submit-btn {
+    width:90px;
+    height: 40px;
+    background-color: #FAFAFB;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Start footer-container Section Style CSS  */
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 50%;
+    padding: 35px;
+}
+
+.footer-info-title {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-icons {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons img{
+    width: 36px;
+    height: 36px;
+    margin-left: 20px;
 }
