@@ -27,6 +27,7 @@ body {
     padding: 14px;
     border-radius: 8px;
     border: 1px solid rgb(19, 19, 33);
+    cursor: pointer;
 }
 
 /* Start Banner style CSS */
@@ -84,10 +85,11 @@ body {
 
 #why-web-development {
     width: 1005px;
-    height: 1225px;
+    height: 1260px;
     margin: 0 auto;
     margin-top: 70px;
     background-color: #FAFAFB;
+    border-radius: 16px;
 }
 
 .why-web-development-info {
@@ -112,7 +114,7 @@ body {
 
 .will-do-coding {
     width: 750px;
-    height: 300px;
+    height: 325px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -131,6 +133,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
+    line-height: 36px;
 }
 
 .coding-info-description {
@@ -162,14 +165,15 @@ body {
 /*I Will Help People Section Style CSS*/
 .help-people {
     width: 750px;
-    height: 300px;
+    height: 325px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 32px;
     border-radius: 16px;
-    background: linear-gradient(180deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(-90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .help-people-image img {
@@ -182,6 +186,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
+    line-height: 36px;
 }
 
 .help-people-description {
@@ -412,7 +417,7 @@ body {
     width: 1003px;
     height: 275px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 60px;
     border-radius: 15px;
 }
 
